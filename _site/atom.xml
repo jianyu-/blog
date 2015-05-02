@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
  
  <title>八毛小站</title>
- <link href="http://username.github.io/" rel="self"/>
- <link href="http://username.github.io"/>
- <updated>2015-05-02T15:02:58+08:00</updated>
- <id>http://username.github.io</id>
+ <link href="http://jianyu-.github.io/blog//" rel="self"/>
+ <link href="http://jianyu-.github.io/blog/"/>
+ <updated>2015-05-02T20:58:11+08:00</updated>
+ <id>http://jianyu-.github.io/blog/</id>
  <author>
    <name></name>
    <email>zhangjianyu1979@gmail.com</email>
@@ -13,20 +13,51 @@
 
  
  <entry>
-   <title>century park</title>
-   <link href="http://username.github.io/2015/05/02/century-park"/>
-   <updated>2015-05-02T00:00:00+08:00</updated>
-   <id>http://username.github.io/2015/05/02/century-park</id>
+   <title>centuryPark</title>
+   <link href="http://jianyu-.github.io/blog//2015/05/01/centurypark"/>
+   <updated>2015-05-01T00:00:00+08:00</updated>
+   <id>http://jianyu-.github.io/blog//2015/05/01/centurypark</id>
    <content type="html">
-&lt;p&gt;d&lt;/p&gt;
+&lt;p&gt;早起下了win7的ISO镜像，重温了《浪潮之巅》中关于风险投资的章节
+主要观点心得：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;风投看重的都是大生意，10亿美金的市场才能进入他们的考虑&lt;/li&gt;
+  &lt;li&gt;市场容量、技术绝活、创始人靠谱&lt;/li&gt;
+  &lt;li&gt;关于股权稀释和董事会等，有非常成熟的体系&lt;/li&gt;
+  &lt;li&gt;风投和私募的关系和区别－－高风险高收益，高新行业和传统行业&lt;/li&gt;
+  &lt;li&gt;天使和风投的关系&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;今天又去了世纪公园，带了帐篷、垫子，中午吃了肯德基的全家桶。孩子还是不大听话，需要提高交际能力。运动能力还比较差，跟别人玩不到一起。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>offlineQrcode</title>
+   <link href="http://jianyu-.github.io/blog//develop/2015/04/29/offlineqrcode"/>
+   <updated>2015-04-29T00:00:00+08:00</updated>
+   <id>http://jianyu-.github.io/blog//develop/2015/04/29/offlineqrcode</id>
+   <content type="html">
+&lt;h4 id=&quot;section&quot;&gt;开始准备动手干&lt;strong&gt;离线条码&lt;/strong&gt;。&lt;/h4&gt;
+
+&lt;p&gt;问题包括：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;如何定义一个容易分发的django模块，需要注意的点有哪些&lt;/li&gt;
+  &lt;li&gt;缺少android和iOS的实现，FPE部分&lt;/li&gt;
+  &lt;li&gt;二维码中间嵌入图片的实现方式还不清晰&lt;/li&gt;
+  &lt;li&gt;性能测试方法，是否采用nginx＋django？&lt;/li&gt;
+&lt;/ol&gt;
+
 </content>
  </entry>
  
  <entry>
    <title>Jekyll Introduction</title>
-   <link href="http://username.github.io/lessons/2011/12/29/jekyll-introduction"/>
+   <link href="http://jianyu-.github.io/blog//lessons/2011/12/29/jekyll-introduction"/>
    <updated>2011-12-29T00:00:00+08:00</updated>
-   <id>http://username.github.io/lessons/2011/12/29/jekyll-introduction</id>
+   <id>http://jianyu-.github.io/blog//lessons/2011/12/29/jekyll-introduction</id>
    <content type="html">
 &lt;p&gt;This Jekyll introduction will outline specifically  what Jekyll is and why you would want to use it.
 Directly following the intro we’ll learn exactly &lt;em&gt;how&lt;/em&gt; Jekyll does what it does.&lt;/p&gt;
