@@ -5,10 +5,45 @@
         <description>八毛小站 - </description>
         <link>http://jianyu-.github.io/blog/</link>
         <link>http://jianyu-.github.io/blog/</link>
-        <lastBuildDate>2015-05-02T20:58:11+08:00</lastBuildDate>
-        <pubDate>2015-05-02T20:58:11+08:00</pubDate>
+        <lastBuildDate>2015-05-05T23:04:36+08:00</lastBuildDate>
+        <pubDate>2015-05-05T23:04:36+08:00</pubDate>
         <ttl>1800</ttl>
 
+
+        <item>
+                <title>单位开始开人啦</title>
+                <description>
+&lt;p&gt;昨晚豆豆个强迫症患者非要找出ZLJ被解约的理论依据，找到劳动法，因病不在治疗期无法胜任工作的，单位可以解约。自我安慰罢了，话说现在单位里就是想让你走，要找个借口还难么？ZLJ腰椎间盘突出，怎么也算是职业病了，说开就开了，欺负老实人哪。他们京巴，今天老爸生病明天孩子不舒服，赶上哪天又是公公生病的，没见她提交什么事假单，扣钱啥的。说白了，现在人力就是搞一堆制度，哪天想整你了随便拉一条就是。操蛋玩意啊。&lt;/p&gt;
+
+&lt;p&gt;和恶搞一起给小陆买的小米空气净化器居然今天就发货了，土豪说这叫给你惊喜，恶搞也说上次买小米东西也是说一周发货，第二天就送了。我说小米是玩弄消费者惯了，没一句真话啊。玩弄小手段多了，早晚会栽了。&lt;/p&gt;
+
+&lt;p&gt;视频中心那边，听说小斌投靠老房了，唉。太天真了，小斌一直是F养在研究院的一条狗好不好，C不过是他们眼里的肉鸡，L相当于一个不听话的NPC，话说院长真屌。来了第一天就说廉洁，是啊。你老人家上来先把上一任的卵都捏在手里，高啊。上来自己干干净净，先找人查一通帐，然后再找几个恶心人把水搅混。浑水摸鱼，和F总里应外合，真是高明。&lt;/p&gt;
+
+&lt;p&gt;LRC歌词的项目还想搞一下，搞成WEB方式，基于H5实现：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;参考&lt;a href=&quot;https://github.com/thomassturm/VideoSub&quot;&gt;SRT的一个项目&lt;/a&gt;，js脚本绑定控件&lt;/li&gt;
+  &lt;li&gt;SRT－－LRC转换&lt;/li&gt;
+  &lt;li&gt;倍速、慢速播放&lt;/li&gt;
+  &lt;li&gt;录音存储
+WebRTC的东西是不是又可以捡起来了？&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+                <link>http://jianyu-.github.io/blog//2015/05/05/sb-fired</link>
+                <guid>http://jianyu-.github.io/blog//2015/05/05/sb-fired</guid>
+                <pubDate>2015-05-05T00:00:00+08:00</pubDate>
+        </item>
+
+        <item>
+                <title>director</title>
+                <description>
+&lt;p&gt;网关团队开始招人了，技术总监开价50万年薪。和视频中心看齐了。和恶搞聊了下，产品经理也给50万。可是，在单位这种体制下，能给产品经理权限么？还是项目经理。还是把人用废的节奏啊。&lt;/p&gt;
+
+</description>
+                <link>http://jianyu-.github.io/blog//2015/05/04/director</link>
+                <guid>http://jianyu-.github.io/blog//2015/05/04/director</guid>
+                <pubDate>2015-05-04T00:00:00+08:00</pubDate>
+        </item>
 
         <item>
                 <title>centuryPark</title>
@@ -45,6 +80,28 @@
   &lt;li&gt;性能测试方法，是否采用nginx＋django？&lt;/li&gt;
 &lt;/ol&gt;
 
+&lt;h3 id=&quot;django&quot;&gt;如何开发可以复用的django模块&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;.
+|-- _config.yml
+|-- _includes
+|-- _layouts
+|   |-- default.html
+|   |-- post.html
+|-- _posts
+|   |-- 2011-10-25-open-source-is-good.markdown
+|   |-- 2011-04-26-hello-world.markdown
+|-- _site
+|-- index.html
+|-- assets
+    |-- css
+        |-- style.css
+    |-- javascripts
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&quot;pilqrcode&quot;&gt;PIL如何操作QRCode&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;QRCode生成的PNG格式图片，根据内容大小不同，图片大小也不同
+&lt;/code&gt;&lt;/pre&gt;
 </description>
                 <link>http://jianyu-.github.io/blog//develop/2015/04/29/offlineqrcode</link>
                 <guid>http://jianyu-.github.io/blog//develop/2015/04/29/offlineqrcode</guid>
