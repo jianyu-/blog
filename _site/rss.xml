@@ -5,15 +5,26 @@
         <description>八毛小站 - </description>
         <link>http://jianyu-.github.io/blog/</link>
         <link>http://jianyu-.github.io/blog/</link>
-        <lastBuildDate>2015-05-11T00:44:17+08:00</lastBuildDate>
-        <pubDate>2015-05-11T00:44:17+08:00</pubDate>
+        <lastBuildDate>2015-05-11T01:01:55+08:00</lastBuildDate>
+        <pubDate>2015-05-11T01:01:55+08:00</pubDate>
         <ttl>1800</ttl>
 
 
         <item>
-                <title>attack from DOD</title>
+                <title>来自美国国防部的攻击？</title>
                 <description>
 &lt;p&gt;昨晚看到服务器上log不大对，怎么有那么多的404错误呢。一波三折啊，搞不懂支付公司的烂网络了。&lt;/p&gt;
+
+&lt;p&gt;awk sort grep uniq cut，多个程序组合，加上管道符号，很给力。需要好好学习下，顺带参考boolan上黄东的那篇分享里的内容。&lt;/p&gt;
+
+&lt;p&gt;⋅⋅⋅cut,提取有用内容
+⋅⋅⋅sort，排序
+⋅⋅⋅niq去重，计数
+⋅⋅⋅awk，超牛的工具，比较难操作&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;shell
+awk -F&#39;&quot;&#39; &#39;/GET/ {print $6}&#39; /var/log/nginx-access.log | cut -d&#39; &#39; -f1 | sort | uniq -c | sort -rn
+&lt;/code&gt;&lt;/p&gt;
 
 &lt;p&gt;在log里看到很多访问，问题有：&lt;/p&gt;
 

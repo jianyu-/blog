@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "attack from DOD"
+title: "来自美国国防部的攻击？"
 description: ""
 category: 
 tags: []
@@ -8,6 +8,18 @@ tags: []
 {% include JB/setup %}
 
 昨晚看到服务器上log不大对，怎么有那么多的404错误呢。一波三折啊，搞不懂支付公司的烂网络了。
+
+awk sort grep uniq cut，多个程序组合，加上管道符号，很给力。需要好好学习下，顺带参考boolan上黄东的那篇分享里的内容。
+
+⋅⋅⋅cut,提取有用内容
+⋅⋅⋅sort，排序
+⋅⋅⋅niq去重，计数
+⋅⋅⋅awk，超牛的工具，比较难操作
+
+```shell
+awk -F'"' '/GET/ {print $6}' /var/log/nginx-access.log | cut -d' ' -f1 | sort | uniq -c | sort -rn
+```
+
 
 在log里看到很多访问，问题有：
 

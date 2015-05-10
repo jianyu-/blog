@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>attack from DOD</title>
+    <title>来自美国国防部的攻击？</title>
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -130,7 +130,7 @@
       <div class="container">
         
 <div class="page-header">
-  <h1>attack from DOD </h1>
+  <h1>来自美国国防部的攻击？ </h1>
 </div>
 
 <div class="row post-full">
@@ -141,6 +141,17 @@
     <div class="content">
       
 <p>昨晚看到服务器上log不大对，怎么有那么多的404错误呢。一波三折啊，搞不懂支付公司的烂网络了。</p>
+
+<p>awk sort grep uniq cut，多个程序组合，加上管道符号，很给力。需要好好学习下，顺带参考boolan上黄东的那篇分享里的内容。</p>
+
+<p>⋅⋅⋅cut,提取有用内容
+⋅⋅⋅sort，排序
+⋅⋅⋅niq去重，计数
+⋅⋅⋅awk，超牛的工具，比较难操作</p>
+
+<p><code>shell
+awk -F'"' '/GET/ {print $6}' /var/log/nginx-access.log | cut -d' ' -f1 | sort | uniq -c | sort -rn
+</code></p>
 
 <p>在log里看到很多访问，问题有：</p>
 
