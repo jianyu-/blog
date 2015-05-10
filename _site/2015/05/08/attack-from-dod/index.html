@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Archive</title>
-    
+    <title>attack from DOD</title>
+    <meta name="description" content="">
     <meta name="author" content="">
 
     <!-- Enable responsive viewport -->
@@ -69,7 +69,7 @@
     
       
       	
-      	<li class="active"><a href="/archive.html" class="active">Archive</a></li>
+      	<li><a href="/archive.html">Archive</a></li>
       	
       
     
@@ -130,119 +130,50 @@
       <div class="container">
         
 <div class="page-header">
-  <h1>Archive </h1>
+  <h1>attack from DOD </h1>
 </div>
 
-<div class="row">
+<div class="row post-full">
   <div class="col-xs-12">
-    
-
-
-
-
-
-  
-    
-    
-    
-    
-  
-    
-      <h2>2015</h2>
-      <h3>May</h3>
-      <ul>
-    
-  
-    <li><span>May  8, 2015</span> &raquo; <a href="/2015/05/08/attack-from-dod">attack from DOD</a></li>
-  
-    
-          
-        
+    <div class="date">
+      <span>08 May 2015</span>
+    </div>
+    <div class="content">
       
-    
-  
-    
-    
-    
-    
-  
-    
-  
-    <li><span>May  5, 2015</span> &raquo; <a href="/2015/05/05/sb-fired">单位开始开人啦</a></li>
-  
-    
-          
-        
-      
-    
-  
-    
-    
-    
-    
-  
-    
-  
-    <li><span>May  4, 2015</span> &raquo; <a href="/2015/05/04/director">总监？</a></li>
-  
-    
-          
-        
-      
-    
-  
-    
-    
-    
-    
-  
-    
-  
-    <li><span>May  1, 2015</span> &raquo; <a href="/2015/05/01/centurypark">世纪公园</a></li>
-  
-    
-          
-        
-          </ul>
-          <h3>April</h3>
-          <ul>
-        
-      
-    
-  
-    
-    
-    
-    
-  
-    
-  
-    <li><span>April 29, 2015</span> &raquo; <a href="/develop/2015/04/29/offlineqrcode">offlineQrcode</a></li>
-  
-    
-      
-        </ul>
-        <h2>2011</h2>
-        <h3>December</h3>
-        <ul>
-      
-    
-  
-    
-    
-    
-    
-  
-    
-  
-    <li><span>December 29, 2011</span> &raquo; <a href="/lessons/2011/12/29/jekyll-introduction">Jekyll Introduction</a></li>
-  
-    
-      </ul>
-    
-  
+<p>昨晚看到服务器上log不大对，怎么有那么多的404错误呢。一波三折啊，搞不懂支付公司的烂网络了。</p>
+
+<p>在log里看到很多访问，问题有：</p>
+
+<ol>
+  <li>所有的web访问来源都是同一个IP</li>
+  <li>IP地址来源是美国？怀疑是堡垒机VPN搞的</li>
+  <li>访问的POST数据中有很多没有201错误，没有绑定小票机。</li>
+</ol>
+
+<p>todo
+    vpn环境下检查traceroute到堡垒机和服务器上抓到的访问机器的IP
+    和支付公司确认IP来源，和小票机访问账号的问题（配置、权限等）
+    对log分析的命令进行整理</p>
 
 
+    </div>
+
+    
+
+    
+  
+    <hr>
+    <ul class="pagination">
+    
+      <li class="prev"><a href="/2015/05/05/sb-fired" title="单位开始开人啦">&laquo; Previous</a></li>
+    
+      <li><a href="/archive.html">Archive</a></li>
+    
+      <li class="next disabled"><a>Next &rarr;</a>
+    
+    </ul>
+    <hr>
+    
   </div>
 </div>
 

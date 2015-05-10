@@ -4,13 +4,37 @@
  <title>八毛小站</title>
  <link href="http://jianyu-.github.io/blog//" rel="self"/>
  <link href="http://jianyu-.github.io/blog/"/>
- <updated>2015-05-06T00:30:56+08:00</updated>
+ <updated>2015-05-11T00:44:17+08:00</updated>
  <id>http://jianyu-.github.io/blog/</id>
  <author>
    <name></name>
    <email>zhangjianyu1979@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>attack from DOD</title>
+   <link href="http://jianyu-.github.io/blog//2015/05/08/attack-from-dod"/>
+   <updated>2015-05-08T00:00:00+08:00</updated>
+   <id>http://jianyu-.github.io/blog//2015/05/08/attack-from-dod</id>
+   <content type="html">
+&lt;p&gt;昨晚看到服务器上log不大对，怎么有那么多的404错误呢。一波三折啊，搞不懂支付公司的烂网络了。&lt;/p&gt;
+
+&lt;p&gt;在log里看到很多访问，问题有：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;所有的web访问来源都是同一个IP&lt;/li&gt;
+  &lt;li&gt;IP地址来源是美国？怀疑是堡垒机VPN搞的&lt;/li&gt;
+  &lt;li&gt;访问的POST数据中有很多没有201错误，没有绑定小票机。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;todo
+    vpn环境下检查traceroute到堡垒机和服务器上抓到的访问机器的IP
+    和支付公司确认IP来源，和小票机访问账号的问题（配置、权限等）
+    对log分析的命令进行整理&lt;/p&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>单位开始开人啦</title>
